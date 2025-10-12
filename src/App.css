@@ -1,2 +1,7 @@
 @import "tailwindcss";
 @plugin "daisyui";
+.navbar-link-style:hover{
+  color: #632EE3;
+  text-decoration: underline;
+  transition: 0.5s;
+}
