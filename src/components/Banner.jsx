@@ -1,6 +1,8 @@
 import React from "react";
 import { Link } from "react-router";
 import heroImg from "../assets/hero.png";
+import googleplay from '../assets/googleplay-removebg-preview.png'
+import appStore from '../assets/App_Store_(iOS).svg.png'
 
 const Banner = () => {
   return (
@@ -20,14 +22,14 @@ const Banner = () => {
         digital experiences that truly make an impact.
       </p>
       <div className="flex gap-3 justify-center">
-        <Link className="btn btn-outline">Button1</Link>
-        <Link className="btn btn-outline">Button2</Link>
+        <Link className="btn "><img src={googleplay} className="h-[20px]"/>Google Play</Link>
+        <Link className="btn "><img src={appStore} className="h-[20px]"/>App Store</Link>
       </div>
         <div className="text-center flex justify-center h-[400px]">
-            <img className="h-full w-[700px]" src={heroImg} alt="" />
+            <img className="h-full w-[750px]" src={heroImg} alt="" />
         </div>
     </div>
-            <div className="h-[400px] bg-gradient-to-r 
+            <div className="py-16 bg-gradient-to-r 
     to-[#9F62F2] 
     from-[#632EE3] flex flex-col justify-center gap-15 items-center text-white">
         <h1 className="text-3xl font-bold">Trusted by Millions, Built for You</h1>
