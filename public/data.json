@@ -1,0 +1,380 @@
+[
+  {
+    "image": "https://upload.wikimedia.org/wikipedia/commons/e/e7/Instagram_logo_2016.svg",
+    "title": "Instagram",
+    "companyName": "Meta Platforms, Inc.",
+    "id": 101,
+    "description": "A social networking service for sharing photos and videos, and following your friends and interests.",
+    "size": 250,
+    "reviews": 156000000,
+    "ratingAvg": 4.5,
+    "downloads": 5000000000,
+    "ratings": [
+      { "name": "1 star", "count": 5000000 },
+      { "name": "2 star", "count": 4000000 },
+      { "name": "3 star", "count": 10000000 },
+      { "name": "4 star", "count": 37000000 },
+      { "name": "5 star", "count": 100000000 }
+    ]
+  },
+  {
+    "image": "https://upload.wikimedia.org/wikipedia/commons/4/4e/A_red_apple_on_a_white_background_with_a_small_bite_out_of_the_top_right.svg",
+    "title": "Fruit Crush Saga",
+    "companyName": "Candy Games Inc.",
+    "id": 102,
+    "description": "The addictive match-three puzzle game with thousands of sweet levels to enjoy!",
+    "size": 180,
+    "reviews": 8500000,
+    "ratingAvg": 4.1,
+    "downloads": 500000000,
+    "ratings": [
+      { "name": "1 star", "count": 500000 },
+      { "name": "2 star", "count": 600000 },
+      { "name": "3 star", "count": 1500000 },
+      { "name": "4 star", "count": 2900000 },
+      { "name": "5 star", "count": 3000000 }
+    ]
+  },
+  {
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6b/WhatsApp.svg/1200px-WhatsApp.svg.png",
+    "title": "WhatsApp Messenger",
+    "companyName": "Meta Platforms, Inc.",
+    "id": 103,
+    "description": "Simple, reliable, private messaging and calling app.",
+    "size": 150,
+    "reviews": 210000000,
+    "ratingAvg": 4.3,
+    "downloads": 5000000000,
+    "ratings": [
+      { "name": "1 star", "count": 10000000 },
+      { "name": "2 star", "count": 9000000 },
+      { "name": "3 star", "count": 21000000 },
+      { "name": "4 star", "count": 50000000 },
+      { "name": "5 star", "count": 120000000 }
+    ]
+  },
+  {
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/14/Font_Awesome_5_regular_star.svg/1024px-Font_Awesome_5_regular_star.svg.png",
+    "title": "Stellar Journey: RPG",
+    "companyName": "Galaxy Studios",
+    "id": 104,
+    "description": "An epic open-world role-playing game set in a futuristic galaxy.",
+    "size": 2800,
+    "reviews": 1200000,
+    "ratingAvg": 4.7,
+    "downloads": 50000000,
+    "ratings": [
+      { "name": "1 star", "count": 20000 },
+      { "name": "2 star", "count": 30000 },
+      { "name": "3 star", "count": 150000 },
+      { "name": "4 star", "count": 300000 },
+      { "name": "5 star", "count": 700000 }
+    ]
+  },
+  {
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/Trello_logo-blue.svg/2048px-Trello_logo-blue.svg.png",
+    "title": "TaskFlow Pro",
+    "companyName": "Productivity Hub",
+    "id": 105,
+    "description": "Manage your projects and tasks with a simple and intuitive interface.",
+    "size": 55,
+    "reviews": 450000,
+    "ratingAvg": 4.4,
+    "downloads": 10000000,
+    "ratings": [
+      { "name": "1 star", "count": 10000 },
+      { "name": "2 star", "count": 15000 },
+      { "name": "3 star", "count": 50000 },
+      { "name": "4 star", "count": 155000 },
+      { "name": "5 star", "count": 220000 }
+    ]
+  },
+  {
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/Google_Chrome_logo_%282011%29.svg/1200px-Google_Chrome_logo_%282011%29.svg.png",
+    "title": "Chrome Browser",
+    "companyName": "Google LLC",
+    "id": 106,
+    "description": "Fast, easy, and secure web browser from Google.",
+    "size": 120,
+    "reviews": 18000000,
+    "ratingAvg": 4.2,
+    "downloads": 5000000000,
+    "ratings": [
+      { "name": "1 star", "count": 800000 },
+      { "name": "2 star", "count": 1000000 },
+      { "name": "3 star", "count": 2500000 },
+      { "name": "4 star", "count": 5700000 },
+      { "name": "5 star", "count": 8000000 }
+    ]
+  },
+  {
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/22/Vector_Icon_of_a_red_controller_on_a_white_background.svg/1200px-Vector_Icon_of_a_red_controller_on_a_white_background.svg.png",
+    "title": "Pixel Racer 3D",
+    "companyName": "Speed Games Co.",
+    "id": 107,
+    "description": "High-octane arcade racing game with customizable cars and tracks.",
+    "size": 600,
+    "reviews": 950000,
+    "ratingAvg": 4.0,
+    "downloads": 80000000,
+    "ratings": [
+      { "name": "1 star", "count": 50000 },
+      { "name": "2 star", "count": 80000 },
+      { "name": "3 star", "count": 200000 },
+      { "name": "4 star", "count": 320000 },
+      { "name": "5 star", "count": 300000 }
+    ]
+  },
+  {
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e6/Open_book_icon.svg/1200px-Open_book_icon.svg.png",
+    "title": "eBook Reader Plus",
+    "companyName": "Literary Tech",
+    "id": 108,
+    "description": "A comprehensive e-book reader with a massive digital library.",
+    "size": 40,
+    "reviews": 75000,
+    "ratingAvg": 4.6,
+    "downloads": 5000000,
+    "ratings": [
+      { "name": "1 star", "count": 1000 },
+      { "name": "2 star", "count": 2000 },
+      { "name": "3 star", "count": 8000 },
+      { "name": "4 star", "count": 24000 },
+      { "name": "5 star", "count": 40000 }
+    ]
+  },
+  {
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b5/Soundcloud_logo.svg/1024px-Soundcloud_logo.svg.png",
+    "title": "Audio Stream Max",
+    "companyName": "Music Flow Inc.",
+    "id": 109,
+    "description": "Stream millions of songs and podcasts with personalized recommendations.",
+    "size": 90,
+    "reviews": 3200000,
+    "ratingAvg": 4.3,
+    "downloads": 500000000,
+    "ratings": [
+      { "name": "1 star", "count": 150000 },
+      { "name": "2 star", "count": 200000 },
+      { "name": "3 star", "count": 550000 },
+      { "name": "4 star", "count": 1000000 },
+      { "name": "5 star", "count": 1300000 }
+    ]
+  },
+  {
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/36/Cloud_Icon.svg/1200px-Cloud_Icon.svg.png",
+    "title": "Weather Forecast Live",
+    "companyName": "Atmosphere Data",
+    "id": 110,
+    "description": "Accurate, real-time weather updates and 7-day forecasts for your location.",
+    "size": 30,
+    "reviews": 150000,
+    "ratingAvg": 3.9,
+    "downloads": 10000000,
+    "ratings": [
+      { "name": "1 star", "count": 10000 },
+      { "name": "2 star", "count": 15000 },
+      { "name": "3 star", "count": 30000 },
+      { "name": "4 star", "count": 45000 },
+      { "name": "5 star", "count": 50000 }
+    ]
+  },
+  {
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/Camera_icon_vector.svg/1024px-Camera_icon_vector.svg.png",
+    "title": "Pro Photo Editor",
+    "companyName": "Visual Arts Inc.",
+    "id": 111,
+    "description": "Professional-grade photo editing tools with advanced filters and effects.",
+    "size": 85,
+    "reviews": 900000,
+    "ratingAvg": 4.5,
+    "downloads": 50000000,
+    "ratings": [
+      { "name": "1 star", "count": 20000 },
+      { "name": "2 star", "count": 30000 },
+      { "name": "3 star", "count": 100000 },
+      { "name": "4 star", "count": 300000 },
+      { "name": "5 star", "count": 450000 }
+    ]
+  },
+  {
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3b/Simple_red_house_icon.svg/1200px-Simple_red_house_icon.svg.png",
+    "title": "Home Decor Designer",
+    "companyName": "Interior Concepts",
+    "id": 112,
+    "description": "Design your home using AR technology and view furniture in your space.",
+    "size": 350,
+    "reviews": 60000,
+    "ratingAvg": 4.2,
+    "downloads": 1000000,
+    "ratings": [
+      { "name": "1 star", "count": 3000 },
+      { "name": "2 star", "count": 4000 },
+      { "name": "3 star", "count": 10000 },
+      { "name": "4 star", "count": 18000 },
+      { "name": "5 star", "count": 25000 }
+    ]
+  },
+  {
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/23/Pac-Man_Fighter_Icon.svg/1200px-Pac-Man_Fighter_Icon.svg.png",
+    "title": "Arcade Retro Remix",
+    "companyName": "Nostalgia Gaming",
+    "id": 113,
+    "description": "A collection of classic 8-bit arcade games with modern twists.",
+    "size": 150,
+    "reviews": 210000,
+    "ratingAvg": 4.3,
+    "downloads": 20000000,
+    "ratings": [
+      { "name": "1 star", "count": 10000 },
+      { "name": "2 star", "count": 15000 },
+      { "name": "3 star", "count": 45000 },
+      { "name": "4 star", "count": 70000 },
+      { "name": "5 star", "count": 70000 }
+    ]
+  },
+  {
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/Shopping_bag_icon_red.svg/1024px-Shopping_bag_icon_red.svg.png",
+    "title": "ShopSmart",
+    "companyName": "Retail Solutions",
+    "id": 114,
+    "description": "Compare prices, find deals, and shop online easily with this smart shopping assistant.",
+    "size": 70,
+    "reviews": 1200000,
+    "ratingAvg": 4.1,
+    "downloads": 50000000,
+    "ratings": [
+      { "name": "1 star", "count": 80000 },
+      { "name": "2 star", "count": 100000 },
+      { "name": "3 star", "count": 220000 },
+      { "name": "4 star", "count": 400000 },
+      { "name": "5 star", "count": 400000 }
+    ]
+  },
+  {
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/93/Google_Meet_icon_%282020%29.svg/2048px-Google_Meet_icon_%282020%29.svg.png",
+    "title": "Video Connect Pro",
+    "companyName": "CommuniTech",
+    "id": 115,
+    "description": "High-quality video conferencing and team collaboration tool.",
+    "size": 65,
+    "reviews": 550000,
+    "ratingAvg": 4.4,
+    "downloads": 100000000,
+    "ratings": [
+      { "name": "1 star", "count": 15000 },
+      { "name": "2 star", "count": 20000 },
+      { "name": "3 star", "count": 75000 },
+      { "name": "4 star", "count": 190000 },
+      { "name": "5 star", "count": 250000 }
+    ]
+  },
+  {
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/47/White_cross_on_a_green_circle.svg/1200px-White_cross_on_a_green_circle.svg.png",
+    "title": "First Aid Guide",
+    "companyName": "Health Education Services",
+    "id": 116,
+    "description": "Essential emergency first aid instructions and guides available offline.",
+    "size": 25,
+    "reviews": 9500,
+    "ratingAvg": 4.8,
+    "downloads": 1000000,
+    "ratings": [
+      { "name": "1 star", "count": 50 },
+      { "name": "2 star", "count": 100 },
+      { "name": "3 star", "count": 500 },
+      { "name": "4 star", "count": 2850 },
+      { "name": "5 star", "count": 6000 }
+    ]
+  },
+  {
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0e/Vector_Icon_of_a_red_and_blue_rocket_on_a_white_background.svg/1200px-Vector_Icon_of_a_red_and_blue_rocket_on_a_white_background.svg.png",
+    "title": "Space Explorer Simulator",
+    "companyName": "Cosmic Play",
+    "id": 117,
+    "description": "Explore the galaxy, build spacecraft, and manage your space colony in this simulation game.",
+    "size": 1500,
+    "reviews": 380000,
+    "ratingAvg": 4.5,
+    "downloads": 20000000,
+    "ratings": [
+      { "name": "1 star", "count": 10000 },
+      { "name": "2 star", "count": 15000 },
+      { "name": "3 star", "count": 55000 },
+      { "name": "4 star", "count": 120000 },
+      { "name": "5 star", "count": 180000 }
+    ]
+  },
+  {
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b1/Vector_Icon_of_a_blue_wrench_and_screwdriver_on_a_white_background.svg/1024px-Vector_Icon_of_a_blue_wrench_and_screwdriver_on_a_white_background.svg.png",
+    "title": "System Cleaner Boost",
+    "companyName": "Utility Tools LLC",
+    "id": 118,
+    "description": "Optimize phone performance, clear junk files, and extend battery life.",
+    "size": 15,
+    "reviews": 600000,
+    "ratingAvg": 3.7,
+    "downloads": 100000000,
+    "ratings": [
+      { "name": "1 star", "count": 50000 },
+      { "name": "2 star", "count": 70000 },
+      { "name": "3 star", "count": 150000 },
+      { "name": "4 star", "count": 180000 },
+      { "name": "5 star", "count": 150000 }
+    ]
+  },
+  {
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/43/Vector_Icon_of_a_chef%27s_hat_on_a_white_background.svg/1024px-Vector_Icon_of_a_chef%27s_hat_on_a_white_background.svg.png",
+    "title": "MasterChef Recipes",
+    "companyName": "Culinary Creations",
+    "id": 119,
+    "description": "Find thousands of gourmet recipes with step-by-step video instructions.",
+    "size": 95,
+    "reviews": 150000,
+    "ratingAvg": 4.6,
+    "downloads": 10000000,
+    "ratings": [
+      { "name": "1 star", "count": 1000 },
+      { "name": "2 star", "count": 2000 },
+      { "name": "3 star", "count": 12000 },
+      { "name": "4 star", "count": 50000 },
+      { "name": "5 star", "count": 85000 }
+    ]
+  },
+  {
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0f/Vector_Icon_of_a_blue_and_yellow_castle_on_a_white_background.svg/1024px-Vector_Icon_of_a_blue_and_yellow_castle_on_a_white_background.svg.png",
+    "title": "Castle Defender Wars",
+    "companyName": "Strategy Legends",
+    "id": 120,
+    "description": "Real-time strategy game where you defend your castle from enemy hordes.",
+    "size": 850,
+    "reviews": 2500000,
+    "ratingAvg": 4.4,
+    "downloads": 50000000,
+    "ratings": [
+      { "name": "1 star", "count": 100000 },
+      { "name": "2 star", "count": 150000 },
+      { "name": "3 star", "count": 350000 },
+      { "name": "4 star", "count": 800000 },
+      { "name": "5 star", "count": 1100000 }
+    ]
+  },
+  {
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/Vector_Icon_of_a_blue_chat_bubble_with_three_dots_on_a_white_background.svg/1024px-Vector_Icon_of_a_blue_chat_bubble_with_three_dots_on_a_white_background.svg.png",
+    "title": "Connect Chat App",
+    "companyName": "Global Messenger Ltd.",
+    "id": 121,
+    "description": "A secure and feature-rich instant messaging application for global communication.",
+    "size": 75,
+    "reviews": 4000000,
+    "ratingAvg": 4.0,
+    "downloads": 200000000,
+    "ratings": [
+      { "name": "1 star", "count": 300000 },
+      { "name": "2 star", "count": 400000 },
+      { "name": "3 star", "count": 800000 },
+      { "name": "4 star", "count": 1200000 },
+      { "name": "5 star", "count": 1300000 }
+    ]
+  }
+]
