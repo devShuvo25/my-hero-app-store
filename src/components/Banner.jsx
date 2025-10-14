@@ -32,11 +32,11 @@ const Banner = () => {
           into digital experiences that truly make an impact.
         </p>
         <div className="flex gap-3 justify-center">
-          <Link className="btn ">
+          <Link to='https://play.google.com/store/games?hl=en' className="btn ">
             <img src={googleplay} className="h-[20px]" />
             Google Play
           </Link>
-          <Link className="btn ">
+          <Link to='https://www.apple.com/app-store/' className="btn ">
             <img src={appStore} className="h-[20px]" />
             App Store
           </Link>

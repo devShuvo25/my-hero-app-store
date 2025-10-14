@@ -2,8 +2,17 @@ import { Github } from 'lucide-react';
 import { FaGithub } from 'react-icons/fa';
 import { Link } from 'react-router';
 import logo from '../assets/logo.png'
+import { useState } from 'react';
 
 const Navbar = () => {
+    const navLink = [
+        {id:1,name:'Home',path:'/home'},
+        {id:2,name:'Apps',path:'/apps'},
+        {id:3,name:'Installation',path:'/installation'}
+    ];
+    const [isActive,setIsActive] = useState(null);
+    console.log(isActive);
+    
     return (
         <div className="navbar bg-base-100 shadow-sm">
   <div className="navbar-start">
@@ -27,7 +36,7 @@ const Navbar = () => {
     </div>
     <div className='h-full flex justify-center'>
         <img src={logo}alt="" className='h-[40px]' />
-        <a className="btn btn-ghost text-xl text-6xl 
+        <a className="btn btn-ghost text-xl 
     font-extrabold 
     bg-clip-text 
     text-transparent 
@@ -38,13 +47,16 @@ const Navbar = () => {
   </div>
   <div className="navbar-center hidden lg:flex">
     <ul className="menu menu-horizontal px-4 flex gap-8 items-center">
-        <Link className='navbar-link-style text-[16px]' to=''>Home</Link>
-        <Link className={`navbar-link-style text-[16px]`} to='/apps'>Apps</Link>
-        <Link  className={`navbar-link-style text-[16px] `} to='/installation'>Installation</Link>
+        {
+            navLink.map(link => <Link to={link.path} onClick={() => setIsActive(link.id)} key={link.id}
+             className={`navbar-link-style text-[16px] ${isActive === link.id? 'text-[#632EE3] underline transition-500':
+               ''}`}>{link.name}</Link> )
+        }
+        
     </ul>
   </div>
   <div className="navbar-end">
-    <a className="btn !text-white border-0 bg-gradient-to-tl
+    <a href='https://github.com/devShuvo25' className="btn !text-white border-0 bg-gradient-to-tl
       from-[#9F62F2] to-[#632EE3]"><FaGithub></FaGithub> Contribute</a>
   </div>
 </div>
