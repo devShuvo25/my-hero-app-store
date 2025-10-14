@@ -4,10 +4,12 @@ import Card from '../components/Card';
 import useFetch from '../hooks/useFetch';
 import { Link } from 'react-router';
 import Loading from './Loading';
+import Spinner from '../components/Spinner';
 
 const Home = () => {
     const [data,isLoading] = useFetch();
     const apps = data.slice(0,6);
+    console.log(isLoading);
 
     return (
         <div>
@@ -18,7 +20,7 @@ const Home = () => {
            </div>
            <div className='px-8 grid grid-cols-1 lg:grid-cols-3 gap-10'>
             {
-             isLoading? <Loading/> :   apps.map( app => <Card key={app.id} app={app}/>)
+             isLoading? <Spinner/> :   apps.map( app => <Card key={app.id} app={app}/>)
             }
            </div>
            <div className='text-center p-8'>

@@ -4,9 +4,10 @@ import { MdOutlineFileDownload } from "react-icons/md";
 import { FaStar } from "react-icons/fa";
 import Details from "./Details";
 
-const InstalledAppCard = ({app}) => {
-    console.log(app)
-    const {title,image,downloads,ratingAvg,size} = app;
+
+const InstalledAppCard = ({app,handleRemove}) => {
+    const {id,title,image,downloads,ratingAvg,size} = app;
+
 
   return (
    <div className="m-3">
@@ -25,7 +26,7 @@ const InstalledAppCard = ({app}) => {
         </div>
         </div>
         <div></div>
-        <button className="btn bg-[#00D390] text-white">Uninstall</button>
+        <button onClick={() =>handleRemove(id)} className="btn bg-[#00D390] text-white">Uninstall</button>
     </div>
     
 </div>
