@@ -11,11 +11,9 @@ import {
 } from 'recharts';
 
 const Chart = ({ data }) => {
-  console.log(data);
-
   return (
     <div className="lg:p-10">
-      <div className="p-4 h-[400px] w-full">
+      <div className="ps-4 py-4 h-[400px] w-full">
         <ResponsiveContainer width="100%" height="100%">
           <BarChart
             data={data}
