@@ -23,9 +23,8 @@ const useInstalled = () => {
 
        }
        localStorage.setItem('current-apps' , JSON.stringify(installedApps))
-       console.log(installedApps)
        setInstalled(installedApps)
-       toast.success('App Installed', {
+       !isInstalled? toast.success('App Installed', {
                                                 position: "top-center",
                                                 autoClose: 3000,
                                                 hideProgressBar: false,
@@ -34,8 +33,9 @@ const useInstalled = () => {
                                                 draggable: true,
                                                 progress: undefined,
                                                 theme: "light",
-                                                });
-    }
+                                                })
+        : toast.warn('Already installed this app');
+    } 
     
     return [installed,isInstalled,handleInstall];
     

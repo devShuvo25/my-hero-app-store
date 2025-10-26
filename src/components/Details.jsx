@@ -7,9 +7,12 @@ import { Link, useParams } from 'react-router';
 import useFetch from '../hooks/useFetch';
 import useInstalled from '../hooks/useInstalled';
 import Chart from './Chart';
+import { useEffect, useState } from 'react';
 
 
 const Details = () => {
+    const dataFromLs = JSON.parse(localStorage.getItem('current-apps')) || [];
+    const [cheak,setCheak] = useState(null);
     const {id} = useParams();
     const [data] = useFetch();
     const [,isInstall,handleInstall] = useInstalled();
@@ -17,7 +20,13 @@ const Details = () => {
     
     const thisProduct = data.find(p => String(p.id) === id);
 
-    const {title,companyName,image,ratingAvg,reviews,downloads,description,
+   useEffect(() => {
+    if (thisProduct && dataFromLs.length > 0) {
+      const isAvailable = dataFromLs.some(p => p.id === thisProduct.id);
+      setCheak(isAvailable);
+    }
+  }, [thisProduct, dataFromLs]);
+    const {title,companyName,image,ratingAvg,reviews,downloads,size,description,
 
 } = thisProduct || {};
 
@@ -25,11 +34,11 @@ const Details = () => {
 
     return (
 <div>
-            <div className='flex h-[300px] gap-10 p-8 '>
-            <div className='w-[25%]'>
+            <div className='flex flex-col lg:flex-row h-[300px] gap-10 lg:p-8 '>
+            <div className='flex justify-center lg:w-[25%]'>
                 <img className='w-[250px]' src={image} alt="" />
             </div>
-            <div className='flex w-full flex-col gap-2'>
+            <div className='flex w-full flex-col gap-2 px-5 lg:px-0'>
                 <div className='w-full'>
                     <h1 className='text-2xl font-semibold mb-[5px]'>{title}</h1>
                     <p className='text-sm opacity-70'>Company name : {companyName}</p>
@@ -60,20 +69,19 @@ const Details = () => {
                     ' />
                 <div>
                     <button onClick={() => handleInstall(thisProduct)} 
-                        disabled={isInstall}
-                    className='btn bg-[#00D390] text-white px-8'>{!isInstall? 'Install' : 'Installed'}</button>
+                        disabled={cheak}
+                    className='btn bg-[#00D390] text-white px-8'>{!cheak? `Install (${size}MB)` : 'Installed'}</button>
                 </div>
             </div>
         </div>
-        <Chart data={ratings}/>
+        <div className='mt-50 lg:mt-0'>
+            <Chart data={ratings}/>
+        </div>
         <div className='p-5'>
             <h2 className='text-lg font-bold mb-4'>Description</h2>
-            <div className='text-sm opacity-80 '>{description}
-                <br />
-               <p className='mt-2'>
-                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit odio expedita corporis, laudantium rerum doloremque necessitatibus earum ad voluptates molestias tenetur ipsum tempore commodi animi eos omnis! Repellendus minima tenetur blanditiis esse ea laborum voluptatibus rem! Optio dolores esse deserunt, praesentium enim reprehenderit officiis necessitatibus, dignissimos quae est cumque aliquam ipsa accusantium nemo eos nesciunt modi doloremque temporibus porro fugiat rem excepturi quibusdam repellat. Reiciendis, quos reprehenderit, harum, deserunt nam excepturi molestiae minus qui soluta saepe ad. Maiores voluptas molestias doloribus labore repellendus, iste voluptatem aut soluta tenetur, laborum nostrum, quo quasi officia magnam. Deleniti assumenda nulla dolores reiciendis inventore?
-               </p>
-            </div>
+            <text className='text-sm opacity-80 '>{description}
+                
+            </text>
         </div>
               <div className="text-center p-8">
         <Link

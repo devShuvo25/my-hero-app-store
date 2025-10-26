@@ -46,7 +46,7 @@ const Banner = () => {
         </div>
       </div>
       <div
-        className="py-5 lg:py-16 bg-gradient-to-r 
+        className="mx-3 rounded-2xl py-5 lg:py-16 bg-gradient-to-r 
     to-[#9F62F2] 
     from-[#632EE3] flex flex-col justify-center gap-10 lg:gap-15 items-center text-white"
       >

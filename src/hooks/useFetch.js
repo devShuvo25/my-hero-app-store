@@ -11,7 +11,7 @@ const useFetch = () => {
         .catch(err => setErr(err))
         .finally(() => setLoading(false))
     },[])
-    return [products,loadiing,err];
+    return [products,loadiing,setLoading,err];
 
 }
 export default useFetch;

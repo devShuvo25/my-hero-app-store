@@ -14,7 +14,7 @@ const Chart = ({ data }) => {
   console.log(data);
 
   return (
-    <div className="p-10">
+    <div className="lg:p-10">
       <div className="p-4 h-[400px] w-full">
         <ResponsiveContainer width="100%" height="100%">
           <BarChart

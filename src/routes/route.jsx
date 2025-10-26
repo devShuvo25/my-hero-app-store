@@ -5,6 +5,7 @@ import Apps from "../pages/Apps";
 import Installation from "../pages/Installation";
 import Error from "../errorPages/Error";
 import Details from "../components/Details";
+import Loading from "../pages/Loading";
 
 const route = createBrowserRouter([
   {
@@ -34,6 +35,10 @@ const route = createBrowserRouter([
       {
         path: '/installation',
         Component: Installation,
+      },
+      {
+        path: '/loading',
+        Component: Loading,
       }
     ],
   },

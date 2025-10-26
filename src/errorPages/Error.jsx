@@ -4,6 +4,7 @@ import errorimg from '../assets/error-404.png'
 const Error = () => {
     return (
         <div className='flex flex-col justify-center items-center gap-5'>
+            <title>PULSE - Error 404</title>
             <div>
                 <img src={errorimg} alt="" />
             </div>
