@@ -74,7 +74,7 @@ const Details = () => {
                 </div>
             </div>
         </div>
-        <div className='mt-50 lg:mt-0'>
+        <div className='mt-60 lg:mt-0'>
             <Chart data={ratings}/>
         </div>
         <div className='p-5'>
