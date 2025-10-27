@@ -7,13 +7,13 @@ const useInstalled = () => {
     let installedApps = [];
 
     useEffect(() => {
-          const currentInstalledApps = JSON.parse(localStorage.getItem('current-apps'));
+          const currentInstalledApps = JSON.parse(localStorage.getItem('current-apps')) || [];
           setInstalled(currentInstalledApps);
     },[])
 
     const handleInstall = (app) => {
         setIsInstalled(true);
-       const currentInstalledApps = JSON.parse(localStorage.getItem('current-apps'));
+       const currentInstalledApps = JSON.parse(localStorage.getItem('current-apps')) || [];
        if(currentInstalledApps){
            const isDuplicate = currentInstalledApps.some(a => a.id === app.id);
            if(isDuplicate) return setIsInstalled(true);

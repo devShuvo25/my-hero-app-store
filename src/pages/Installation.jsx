@@ -45,7 +45,7 @@ const Installation = () => {
       <p className="opacity-70">Explore the trending Apps On the market developers by us</p>
      </div>
       <div className="flex flex-col lg:flex-row gap-3 items-center justify-between p-5">
-        <h2 className="text-xl">({sortedApps.length || 0}) Apps Found</h2>
+        <h2 className="text-xl">({sortedApps?.length || 0}) Apps Found</h2>
 
         <select defaultValue="Pick a font" 
         onChange={(e) => handleSorting(e.target.value)}
