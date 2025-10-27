@@ -1,5 +1,6 @@
 import React from 'react';
 import { IoWarningOutline } from 'react-icons/io5';
+import { Link } from 'react-router';
 
 const NoApps = () => {
     return (
@@ -11,6 +12,7 @@ const NoApps = () => {
                 <h1 className='text-3xl font-extrabold
                 text-[#9F62F2]'>No Apps found</h1>
              </div>
+             
         </div>
     );
 };
