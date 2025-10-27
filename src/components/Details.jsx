@@ -99,7 +99,7 @@ const Details = () => {
           </div>
         </div>
       </div>
-      <div className="mt-60 lg:mt-0">
+      <div className="mt-65 -me-2 lg:me-0 lg:mt-0">
         <Chart data={ratings} />
       </div>
       <div className="p-5">
