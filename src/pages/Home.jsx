@@ -8,7 +8,7 @@ import Spinner from '../components/Spinner';
 
 const Home = () => {
     const [data,isLoading] = useFetch();
-    const apps = data.slice(0,6);
+    const apps = data.slice(0,8);
     console.log(isLoading);
 
     return (
@@ -22,7 +22,7 @@ const Home = () => {
            {
             isLoading? <Spinner/> :
 
-           <div className='px-8 grid grid-cols-1 lg:grid-cols-3 gap-10'>
+           <div className='px-8 grid grid-cols-1 lg:grid-cols-4 gap-10'>
             {
                 apps.map( app => <Card key={app.id} app={app}/>)
             }
@@ -30,7 +30,7 @@ const Home = () => {
            }
            <div className='text-center p-8'>
             <Link to='/apps' className="btn !text-white border-0 bg-gradient-to-tl
-      from-[#9F62F2] to-[#632EE3]">See All Apps</Link>
+      from-[#9F62F2] to-[#632EE3]">Show All Apps</Link>
            </div>
         </div>
     );

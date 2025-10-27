@@ -21,7 +21,7 @@ const Card = ({app}) => {
         />
       </figure>
       <div className="space-y-3">
-        <h3 className="text-[20px] mt-2">{title}</h3>
+        <h3 className="text-[20px] mt-2 font-semibold">{title}</h3>
         <div className="flex justify-between items-center ">
           <span className="flex justify-between gap-3 items-center bg-gray-100 px-4 py-1 rounded-[5px] text-[#00D390]">
             <MdOutlineFileDownload color="#00D390" />

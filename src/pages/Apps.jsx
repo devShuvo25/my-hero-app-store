@@ -7,6 +7,7 @@ import NoApps from "./NoApps";
 
 const Apps = () => {
   const [apps,isLoading] = useFetch();
+  
   console.log(isLoading)
 
  const [inputValue,setInputValue] = useState('');
@@ -48,7 +49,7 @@ const Apps = () => {
         isLoading? <Loading/> 
         : 
           searchedApps.length === 0 ? <NoApps/> :
-      <div className="px-8 grid grid-cols-1 lg:grid-cols-3 gap-10">
+      <div className="px-8 grid grid-cols-1 lg:grid-cols-4 gap-10">
         {
         
         searchedApps.map((app) => (

@@ -50,7 +50,7 @@ const Installation = () => {
         <select defaultValue="Pick a font" 
         onChange={(e) => handleSorting(e.target.value)}
         className="select select-ghost bg-white">
-          <option disabled={true}>Sort by Size</option>
+          <option disabled={true}>Sort by Downloads</option>
           <option value="asc">Low - High</option>
           <option value="dsc">High - Low</option>
         </select>

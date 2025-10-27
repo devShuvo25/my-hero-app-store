@@ -8,7 +8,7 @@ const Navbar = () => {
     const navLink = [
         {id:1,name:'Home',path:'/home'},
         {id:2,name:'Apps',path:'/apps'},
-        {id:3,name:'Installation',path:'/installation'}
+        {id:3,name:'My Installation',path:'/installation'}
     ];
 
     
@@ -26,7 +26,7 @@ const Navbar = () => {
         className="menu menu-sm dropdown-content bg-base-100 rounded-box z-1 mt-3 w-52 p-2 shadow">
         <li><NavLink to={'/'}>Home</NavLink></li>
         <li><NavLink to={'/apps'}>Apps</NavLink></li>
-        <li><NavLink to={'/installation'}>Installation</NavLink></li>
+        <li><NavLink to={'/installation'}>My Installation</NavLink></li>
       </ul>
     </div>
     
